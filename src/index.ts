@@ -15,7 +15,7 @@ app.use("/user",userController)
 app.use("/post",postController)
 
 // listen to port 
-app.listen(process.env.PORT, ():void => console.log(`your server is : http:localhost${process.env.PORT}`));
+app.listen(process.env.PORT, ():void => console.log(`your server is : http:localhost:${process.env.PORT}`));
 
 
 
